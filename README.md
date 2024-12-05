@@ -25,9 +25,11 @@ Gerekli Python kütüphanelerini yüklemek için aşağıdaki komutu kullanabili
 pip install opencv-python 
 numpy matplotlib
 
-Çalışma Prensibi:
+## Çalışma Prensibi
 1.QR Kod Algılama:OpenCV'nin QRCodeDetector sınıfı kullanılarak QR kodu algılanır ve çözümleme yapılır.
+
 2.Köşe Noktalarının Çizimi:Algılanan QR kodunun köşe noktaları tespit edilir ve işaretlenir.
+
 3.Matplotlib ile Görselleştirme:QR kodun orijinal ve düzleştirilmiş versiyonu Matplotlib ile gösterilir.
 
 
